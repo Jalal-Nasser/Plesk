@@ -6,6 +6,7 @@ datePublished: Sat May 31 2025 10:09:34 GMT+0000 (Coordinated Universal Time)
 cuid: cmbc2ljpw000a0ala7jamezqz
 slug: how-to-host-your-vercel-project-on-a-plesk-server
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748686138378/d7e09cfa-9a29-4112-82b6-7917c16c17b9.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1748686588952/2e1b5707-d121-494a-990b-c93d3209dada.png
 tags: github, vercel, github-actions-1, ssh-keys, plesk, ssh-git, vercel-deployment
 
 ---

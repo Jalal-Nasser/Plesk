@@ -13,7 +13,7 @@ tags: github, vercel, github-actions-1, ssh-keys, plesk, ssh-git, vercel-deploym
 
 ## Hosting Your Vercel Project on a Plesk Server
 
-While Vercel provides an excellent platform for deploying and hosting web applications, you might find yourself in a situation where you need to host your Vercel project on a different server, such as a Plesk server. This could be due to specific requirements, existing infrastructure, or simply for experimentation and learning. This guide will walk you through the process of hosting your Vercel project on a Plesk server.
+While Vercel provides an excellent platform for deploying and hosting web applications, you might need to host your Vercel project on a different server, such as a Plesk server. This could be due to specific requirements, existing infrastructure, or simply for experimentation and learning. This guide will walk you through hosting your Vercel project on a Plesk server.
 
 **Why Host on Plesk?**
 
@@ -42,7 +42,7 @@ Before you begin, ensure you have the following:
     
 * **Git:** Git is required for cloning your project from your Vercel repository (e.g., GitHub, GitLab, Bitbucket).
     
-* **A Domain Name:** You'll need a domain name pointed to your Plesk server.
+* **A Domain Name:** You'll need a [domain name pointed](https://jalalnasser.com/how-to-add-a-custom-domain-on-vercel/) to your Plesk server.
     
 
 **Steps to Host Your Vercel Project on Plesk:**
@@ -95,7 +95,7 @@ Plesk typically uses either Nginx or Apache as its web server. You'll need to co
 
 Here's a general outline of the steps for SSR/API routes:
 
-1\. **Install PM2:** `npm install -g pm2` 2. **Start Your Node.js Server:** `pm2 start <your-server-file.js>` (Replace `<your-server-file.js>` With the entry point to your server application, often found in your `package.json`'s "main" field or a dedicated server file. 3. **Configure Reverse Proxy:** Configure your web server (Nginx or Apache) to proxy requests to your Node.js server. This typically involves setting up a reverse proxy that forwards requests to [`http://localhost:<your-port>`](http://localhost:<your-port>) (replace `<your-port>` With the port your Node.js server is listening on. The exact configuration steps will vary depending on whether you're using Nginx or Apache. Consult Plesk's documentation for details on configuring reverse proxies.
+1\. **Install PM2:** `npm install -g pm2` 2. **Start Your Node.js Server:** `pm2 start <your-server-file.js>` (Replace `<your-server-file.js>` With the entry point to your server application, often found in your `package.json`'s "main" field or a dedicated server file. 3. **Configure Reverse Proxy:** Configure your web server (Nginx or Apache) to proxy requests to your Node.js server. This typically involves setting up a reverse proxy that forwards requests to [`http://localhost:<your-port>`](http://localhost:%3Cyour-port%3E) (replace `<your-port>` With the port your Node.js server is listening on. The exact configuration steps will vary depending on whether you're using Nginx or Apache. Consult Plesk's documentation for details on configuring reverse proxies.
 
 **5\. Configure DNS Records:**
 

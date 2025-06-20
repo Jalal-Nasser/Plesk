@@ -156,6 +156,8 @@ location / {
 
 Hosting your Vercel project on a Plesk server can be a viable option if you need more control over your hosting environment, want to consolidate your projects, or have specific server-side requirements. While the process can be more complex than deploying directly to Vercel, it offers greater flexibility and customization. By following the steps outlined in this guide, you can successfully host your Vercel project on a Plesk server and take advantage of the benefits that Plesk provides. Remember to consult Plesk's documentation for detailed instructions on configuring your server and troubleshooting any issues that may arise. Good luck!
 
+More info about the [**deployment of the NEXTJS APP**](https://jalalnasser.com/deployment-of-nextjs-app/)
+
 ### Still can’t solve it
 
 You are free to request my freelance services on [Upwork](https://upwork.com/freelancers/~012b32269d933f4087), [Fiverr](https://pro.fiverr.com/users/jalal), [PeoplePerHour](https://www.peopleperhour.com/freelancer/technology-programming/jalal-nasser-linux-vps-wordpress-seo-php-sql-yjmvjzz), and [Freelancer.com](https://www.freelancer.com/u/jalalnasser)
